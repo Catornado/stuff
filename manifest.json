@@ -1,0 +1,18 @@
+{
+
+	"manifest_version": 2,
+	"name": "Chomusuke",
+	"version": "1",
+	"description": "Free pets, forever. Checkmate.",
+	"author": "나에리",
+	"offline_enabled": true,
+	"icons": {
+		"128": "icon128.png"
+	},
+	"chrome_url_overrides" : {
+		"newtab": "public/index.html"
+	},
+	"permissions": [
+		"storage"
+	]
+}
